@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jeremy School\\Documents\\School\\2021-2022\\L9\\Betaalautomaat\\GeldAutomaat\\GeldAutomaat\\GeldAutomaat.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jeremy School\\Documents\\School\\2021-2022\\L9\\Betaalautomaat\\GeldAutomaat\\GeldAutomaat\\GeldAutomaat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jeremy School\\Documents\\School\\2021-2022\\L9\\Betaalautomaat\\GeldAutomaat\\GeldAutomaat\\GeldAutomaat.csproj",
+        "projectName": "GeldAutomaat",
+        "projectPath": "C:\\Users\\Jeremy School\\Documents\\School\\2021-2022\\L9\\Betaalautomaat\\GeldAutomaat\\GeldAutomaat\\GeldAutomaat.csproj",
+        "packagesPath": "C:\\Users\\Jeremy School\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeremy School\\Documents\\School\\2021-2022\\L9\\Betaalautomaat\\GeldAutomaat\\GeldAutomaat\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeremy School\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
