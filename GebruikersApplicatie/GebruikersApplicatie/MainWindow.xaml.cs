@@ -25,7 +25,20 @@ namespace GebruikersApplicatie
         public MainWindow()
         {
             InitializeComponent();
-            Account user1 = new();
+            Client user1 = new();
+            user1.Create("Layla", "Haarbosch", "noreply@github.com", "0123456789");
+        }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            Button btnThis = sender as Button;
+            string n = btnThis.Content.ToString();
+            txbLogin.Text += n;
+        }
+
+        private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
+        {
+            /* */
         }
     }
 }

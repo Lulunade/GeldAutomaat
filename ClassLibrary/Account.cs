@@ -11,45 +11,16 @@ namespace ClassLibrary
     public class Account
     {
         Sql Sql = new();
-        /*Client Client = new();*/
 
-        private int _id = 0;
-        private string _banknumber;
-        private double _balance;
-        private int _client_id = 0;
-
-        public int Id
-        {
-            get { return _id; }
-            set { _id = value; }
-        }
-
-        public string Banknumber
-        {
-            get { return _banknumber; }
-            set { _banknumber = value; }
-        }
-
-        public double Balance
-        {
-            get { return _balance; }
-            set { _balance = value; }
-        }
-
-        public int ClientId
-        {
-            get { return _client_id; }
-            set { _client_id = value; }
-        }
-        
-        public Account()
-        {
-            
-        }
+        public string BankNumber { get; set; }
+        public double Balance { get; set; }
+        private int ClientId { get; set; }
+        public int Id { get; set; }
+        public bool Blocked { get; set; }
 
         public void LinkClient(int ClientId)
         {
-            _client_id = ClientId;
+            this.ClientId = ClientId;
         }
 
         public void Create(string BankNumber, double Balance)
@@ -62,21 +33,30 @@ namespace ClassLibrary
 
         public void Update(int Id, string BankNumber = "", double Balance = 0, int ClientId = 0)
         {
-            if (BankNumber == "")
+            Read(Id);
+
+            if (string.IsNullOrEmpty(BankNumber))
             {
-                BankNumber = _banknumber;
+                BankNumber = this.BankNumber;
             }
             if (Balance == 0)
             {
-                Balance = _balance;
+                Balance = this.Balance;
             } 
             if (ClientId == 0)
             {
-                ClientId = _client_id;
+                ClientId = this.ClientId;
             }
 
-            string SQL = string.Format("UPDATE betaalautomaat.account (bank_number, balance, client_ID) VALUES ('{0}','{1}','{2}') WHERE ID = {3}",
-                BankNumber, Balance, ClientId, Id);
+            string SQL = string.Format("Update question_answer " +
+                                       "Set bank_number            = '{0}', " +
+                                           "balance                = '{1}', " +
+                                           "client_id              = '{2}'" +
+                                            "WHERE ID =  {3}", BankNumber, Balance, ClientId, Id);
+
+            this.BankNumber = BankNumber;
+            this.Balance = Balance;
+            this.ClientId = ClientId;
 
             Sql.ExecuteNonQuery(SQL);
         }
@@ -85,11 +65,12 @@ namespace ClassLibrary
         {
             string SQL = string.Format("SELECT * FROM betaalautomaat.account WHERE id = {0}", Id);
 
-            DataTable datatabel = Sql.getDataTable(SQL);
-            _id = (int) datatabel.Rows[0]["ID"];
-            _banknumber = datatabel.Rows[0]["bank_number"].toString();
-            _balance = datatabel.Rows[0]["balance"].toString();
-            _client_id = (int) datatabel.Rows[0]["client_ID"].toString();
+            DataTable datatable = Sql.getDataTable(SQL);
+            this.Id = (int)datatable.Rows[0]["ID"];
+            BankNumber = datatable.Rows[0]["bank_number"].ToString();
+            Balance = (double)datatable.Rows[0]["balance"];
+            ClientId = (int)datatable.Rows[0]["client_ID"];
+            Blocked = (bool)datatable.Rows[0]["blocked"];
         }
     }
 }

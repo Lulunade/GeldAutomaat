@@ -8,5 +8,7 @@ namespace ClassLibrary
 {
     class Transaction
     {
+        public double Amount { get; set; }
+        public int AccountId { get; set; }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\ClassLibrary\b
 C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.dll
 C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ref\ClassLibrary.dll
 C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.pdb
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfo.cs
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.dll
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ref\ClassLibrary.dll
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.pdb
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.deps.json
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.dll
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ref\ClassLibrary.dll
+C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.pdb
