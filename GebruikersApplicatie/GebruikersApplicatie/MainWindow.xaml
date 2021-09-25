@@ -47,14 +47,18 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="2" Grid.Column="2">
+            <Label Name="lblLogin" FontSize="40">Voer uw banknummer in:</Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBox Name="txbLogin" Margin="0,0,0,50" Height="80" Width="300" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnSeven" Content="7"
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -83,7 +87,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -112,7 +116,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -144,7 +148,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -174,7 +178,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -204,7 +208,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -236,7 +240,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -266,7 +270,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -296,7 +300,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -328,7 +332,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
-                            Click="BtnLogin_Click"
+                            Click="BtnNumber_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -357,6 +361,7 @@
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
+                            Click="BtnDel_Click"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">

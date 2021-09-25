@@ -99,4 +99,3 @@ C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\D
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.pdb
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete

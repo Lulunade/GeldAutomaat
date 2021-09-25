@@ -22,6 +22,8 @@ namespace GebruikersApplicatie
     public partial class MainWindow : Window
     {
         Sql SQL = new();
+        int count = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -29,16 +31,49 @@ namespace GebruikersApplicatie
             user1.Create("Layla", "Haarbosch", "noreply@github.com", "0123456789");
         }
 
-        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        private void BtnNumber_Click(object sender, RoutedEventArgs e)
         {
             Button btnThis = sender as Button;
             string n = btnThis.Content.ToString();
             txbLogin.Text += n;
         }
 
+
+        private void BtnDel_Click(object sender, RoutedEventArgs e)
+        {
+            Button btnThis = sender as Button;
+            if (txbLogin.Text.Length >= 1)
+            {
+                txbLogin.Text = txbLogin.Text.Substring(0,txbLogin.Text.Length - 1);
+            }
+        }
+
         private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
         {
-            /* */
+            string userBankNumber;
+            string userPin;
+
+            if (count == 0)
+            {
+                userBankNumber = txbLogin.Text;
+
+
+                txbLogin.Clear();
+
+                count++;
+
+                lblLogin.Content = "Voer uw pincode in:";
+
+            } else if (count == 1)
+            {
+                userPin = txbLogin.Text;
+                txbLogin.Clear();
+
+                count++;
+            } else if (count == 2)
+            {
+                MessageBox.Show("Je bent al ingelogd");
+            }
         }
     }
 }
