@@ -47,18 +47,17 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="2" Grid.Column="2">
-            <Label Name="lblLogin" FontSize="40">Voer uw banknummer in:</Label>
-        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="2"/>
 
         <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBox Name="txbLogin" Margin="0,0,0,50" Height="80" Width="300" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
+            <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnSeven" Content="7"
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -74,7 +73,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -88,6 +87,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -103,7 +103,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -117,6 +117,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -132,7 +133,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -142,13 +143,14 @@
                     </Button.Template>
                 </Button>
             </StackPanel>
-            
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+            <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnFour" Content="4"
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                            Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -164,7 +166,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -179,6 +181,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -194,7 +197,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -209,6 +212,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -224,7 +228,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -235,12 +239,13 @@
                 </Button>
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnOne" Content="1"
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -256,7 +261,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -271,6 +276,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -286,7 +292,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -301,6 +307,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -316,7 +323,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -326,13 +333,14 @@
                     </Button.Template>
                 </Button>
             </StackPanel>
-            
+
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnZero" Content="0"
                             Foreground="White"
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnNumber_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -348,7 +356,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -362,6 +370,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnDel_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -377,7 +386,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -391,6 +400,7 @@
                             FontSize="30"
                             FontWeight="Medium"
                             Click="BtnEvaluate_Click"
+                        Margin="20,0,0,0"
                             >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -406,7 +416,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="100" Height="100"
+                            <Border Width="80" Height="80"
                                         CornerRadius="360"
                                         Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -417,6 +427,7 @@
                 </Button>
             </StackPanel>
         </StackPanel>
+        <Label x:Name="lblLogin" FontSize="40" Content="Voer uw rekeningnummer in:" Margin="30,87,580,410" Grid.Row="1" Foreground="White" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

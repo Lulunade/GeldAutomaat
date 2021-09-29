@@ -19,10 +19,11 @@ namespace GebruikersApplicatie
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+
     public partial class MainWindow : Window
     {
+
         Sql SQL = new();
-        int count = 0;
 
         public MainWindow()
         {
@@ -50,30 +51,11 @@ namespace GebruikersApplicatie
 
         private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
         {
-            string userBankNumber;
-            string userPin;
-
-            if (count == 0)
-            {
-                userBankNumber = txbLogin.Text;
-
-
-                txbLogin.Clear();
-
-                count++;
-
-                lblLogin.Content = "Voer uw pincode in:";
-
-            } else if (count == 1)
-            {
-                userPin = txbLogin.Text;
-                txbLogin.Clear();
-
-                count++;
-            } else if (count == 2)
-            {
-                MessageBox.Show("Je bent al ingelogd");
-            }
+            string userBankNumber = txbLogin.Text;
+            PinWindow pinWindow = new PinWindow(userBankNumber);
+            pinWindow.Show();
+            txbLogin.Clear();
+            Close();
         }
     }
 }
