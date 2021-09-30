@@ -29,6 +29,7 @@ namespace GebruikersApplicatie
         public MainWindow()
         {
             InitializeComponent();
+            txbLogin.Focus();
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)

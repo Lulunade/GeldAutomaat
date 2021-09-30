@@ -27,6 +27,7 @@ namespace GebruikersApplicatie
         {
             InitializeComponent();
             this.Id = Id;
+            txbLogin.Focus();
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)
@@ -54,7 +55,9 @@ namespace GebruikersApplicatie
             string userPin = txbLogin.Text;
             if (SecurePasswordHasher.Verify(userPin, Account.Pin))
             {
-                
+                Dashboard dashboard = new(Id);
+                dashboard.Show();
+                Close();
             } else
             {
                 MessageBox.Show("Pincode is ONJUIST!");

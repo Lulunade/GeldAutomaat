@@ -27,8 +27,33 @@ namespace GebruikersApplicatie
             InitializeComponent();
             this.Id = Id;
 
-            account.Read(1);
-            MessageBox.Show($"Uw saldo is: € {account.Balance}");
+            account.Read(Id);
+            btnLogout.Click += Logout;
+            btnDeposit.Click += BtnDeposit_Click;
+            btnTransactions.Click += BtnTransactions_Click;
+            btnWithdraw.Click += BtnWithdraw_Click;
+        }
+
+        private void BtnWithdraw_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnTransactions_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnDeposit_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Logout(object sender, RoutedEventArgs e)
+        {
+            MainWindow win = new();
+            win.Show();
+            Close();
         }
     }
 }

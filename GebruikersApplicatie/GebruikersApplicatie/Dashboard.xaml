@@ -47,11 +47,141 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="2" Grid.Column="2">
-            
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="btnDeposit"  
+                    Foreground="White"
+                            FontSize="25"
+                            FontWeight="Medium"
+                            Margin="0,0,0,20"
+                            >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#4D805F"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#c8c8c8"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="269" Height="269"
+                                        Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\pay-icon.png" Height="145" Width="201"></Image>
+                    <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Geld storten</Label>
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="btnTransactions"  
+                    Foreground="White"
+                            FontSize="25"
+                            FontWeight="Medium"
+                            Margin="0,0,0,20"
+                            >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#4D805F"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#c8c8c8"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="269" Height="269"
+                                        Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\logout-icon.png" Height="145" Width="201"></Image>
+                    <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Transacties</Label>
+                </StackPanel>
+            </Button>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="btnWithdraw"  
+                    Foreground="White"
+                            FontSize="25"
+                            FontWeight="Medium"
+                            Margin="0,0,0,20"
+                            >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#4D805F"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#c8c8c8"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="269" Height="269"
+                                        Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\cash-icon.png" Height="145" Width="201"></Image>
+                    <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Geld opnemen</Label>
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="btnLogout"  
+                    Foreground="White"
+                            FontSize="25"
+                            FontWeight="Medium"
+                            Margin="0,0,0,20"
+                            >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#4D805F"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#c8c8c8"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="269" Height="269"
+                                        Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\logout-icon.png" Height="145" Width="201"></Image>
+                    <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Uitloggen</Label>
+                </StackPanel>
+            </Button>
+        </StackPanel>
 
     </Grid>
 </Window>
