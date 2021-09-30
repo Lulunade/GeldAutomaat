@@ -28,11 +28,7 @@ namespace ClassLibrary
             string SQL = string.Format("INSERT INTO betaalautomaat.client (surname, last_name, e-mail, telephone) VALUES ('{0}','{1}','{2}','{3}')",
                 Surname, LastName, Email, Telephone);
 
-            string SQL2 = string.Format("SELECT * FROM betaalautomaat.account ORDER BY ID DESC LIMIT 1");
-
             DataTable datatable = Sql.getDataTable(SQL);
-
-            /*_id = (int)datatable.Rows[0]["ID"];*/
 
             Sql.ExecuteNonQuery(SQL);
         }
@@ -68,14 +64,14 @@ namespace ClassLibrary
 
         public void Read(int Id)
         {
-            string SQL = string.Format("SELECT * FROM betaalautomaat.client WHERE id = {0}", Id);
+            string SQL = $"SELECT * FROM betaalautomaat.client WHERE id = {Id}";
 
             DataTable datatable = Sql.getDataTable(SQL);
             this.Id = (int)datatable.Rows[0]["ID"];
-            this.Surname = datatable.Rows[0]["surname"].ToString();
-            this.LastName = datatable.Rows[0]["last_name"].ToString();
-            this.Email = datatable.Rows[0]["e-mail"].ToString();
-            this.Telephone = datatable.Rows[0]["telephone"].ToString();
+            Surname = datatable.Rows[0]["surname"].ToString();
+            LastName = datatable.Rows[0]["last_name"].ToString();
+            Email = datatable.Rows[0]["e-mail"].ToString();
+            Telephone = datatable.Rows[0]["telephone"].ToString();
 
         }
     }

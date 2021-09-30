@@ -16,6 +16,8 @@ namespace ClassLibrary
         public double Balance { get; set; }
         private int ClientId { get; set; }
         public int Id { get; set; }
+
+        public string Pin { get; set; }
         public bool Blocked { get; set; }
 
         public void LinkClient(int ClientId)
@@ -71,6 +73,7 @@ namespace ClassLibrary
             Balance = (double)datatable.Rows[0]["balance"];
             ClientId = (int)datatable.Rows[0]["client_ID"];
             Blocked = (bool)datatable.Rows[0]["blocked"];
+            Pin = datatable.Rows[0]["pin"].ToString();
         }
     }
 }

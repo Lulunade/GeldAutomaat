@@ -101,3 +101,6 @@ C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\D
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
 C:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\PinWindow.g.cs
 C:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\PinWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Dashboard.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Dashboard.g.cs

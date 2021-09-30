@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,12 +20,13 @@ namespace GebruikersApplicatie
     /// </summary>
     public partial class PinWindow : Window
     {
-        string BankNumber;
+        int Id;
+        Account Account = new();
 
-        public PinWindow(string BankNumber)
+        public PinWindow(int Id)
         {
             InitializeComponent();
-            this.BankNumber = BankNumber;
+            this.Id = Id;
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)
@@ -46,8 +48,18 @@ namespace GebruikersApplicatie
 
         private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
         {
-            string userBankNumber = BankNumber;
+            int Id = this.Id;
+            Account.Read(Id);
+            string userBankNumber = Account.BankNumber;
             string userPin = txbLogin.Text;
+            if (SecurePasswordHasher.Verify(userPin, Account.Pin))
+            {
+                
+            } else
+            {
+                MessageBox.Show("Pincode is ONJUIST!");
+            }
+            
             MessageBox.Show($"{userPin} {userBankNumber}");
             txbLogin.Clear();
         }

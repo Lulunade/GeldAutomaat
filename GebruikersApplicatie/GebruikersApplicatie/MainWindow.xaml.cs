@@ -1,6 +1,7 @@
 ﻿using ClassLibrary;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,13 +24,11 @@ namespace GebruikersApplicatie
     public partial class MainWindow : Window
     {
 
-        Sql SQL = new();
+        Sql Sql = new();
 
         public MainWindow()
         {
             InitializeComponent();
-            Client user1 = new();
-            user1.Create("Layla", "Haarbosch", "noreply@github.com", "0123456789");
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)
@@ -52,10 +51,20 @@ namespace GebruikersApplicatie
         private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
         {
             string userBankNumber = txbLogin.Text;
-            PinWindow pinWindow = new PinWindow(userBankNumber);
-            pinWindow.Show();
             txbLogin.Clear();
-            Close();
+            string SQL = $"SELECT * FROM betaalautomaat.account WHERE bank_number = \"{userBankNumber}\"";
+            DataTable datatable = Sql.getDataTable(SQL);
+
+            if (datatable.Rows.Count > 0)
+            {
+                int id = (int)datatable.Rows[0]["ID"];
+                PinWindow pinWindow = new PinWindow(id);
+                pinWindow.Show();
+                Close();
+            } else
+            {
+                MessageBox.Show("Bankrekening bestaat niet!");
+            }
         }
     }
 }

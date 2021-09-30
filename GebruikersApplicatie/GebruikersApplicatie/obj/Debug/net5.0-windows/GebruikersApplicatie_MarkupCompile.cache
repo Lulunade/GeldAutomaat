@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\
 GebruikersApplicatie
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\App.xaml
-21216535471
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\App.xaml
+31883478976
 
-4-720793639
-2041792051870
-MainWindow.xaml;PinWindow.xaml;
+5-914305035
+204406359889
+Dashboard.xaml;MainWindow.xaml;PinWindow.xaml;
 
 False
 
