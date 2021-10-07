@@ -36,17 +36,23 @@ namespace GebruikersApplicatie
 
         private void BtnWithdraw_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            WithdrawWindow win = new(Id);
+            win.Show();
+            Close();
         }
 
         private void BtnTransactions_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            TransactionsWindow win = new(Id);
+            win.Show();
+            Close();
         }
 
         private void BtnDeposit_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            DepositWindow win = new(Id);
+            win.Show();
+            Close();
         }
 
         public void Logout(object sender, RoutedEventArgs e)

@@ -37,13 +37,14 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="LabelQuiztime" Text="QuizTime"
+            <TextBlock x:Name="lblInloggen" Text="Inloggen"
                        Foreground="White"
                        Grid.Column="1"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontWeight="Medium"
-                       FontSize="20"/>
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
 
         </Grid>
 

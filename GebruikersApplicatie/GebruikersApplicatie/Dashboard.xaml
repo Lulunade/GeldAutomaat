@@ -109,7 +109,7 @@
                     </ControlTemplate>
                 </Button.Template>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\logout-icon.png" Height="145" Width="201"></Image>
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\list-icon.png" Height="145" Width="201"></Image>
                     <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Transacties</Label>
                 </StackPanel>
             </Button>

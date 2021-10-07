@@ -1,0 +1,115 @@
+﻿<Window x:Class="GebruikersApplicatie.WithdrawWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GebruikersApplicatie"
+        mc:Ignorable="d"
+        Title="WithdrawWindow" Height="700" Width="1200">
+    <Grid x:Name="grid" Background="#499F68">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="#4D805F"
+              Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="lblDashboard" Text="Dashboard"
+                       Foreground="White"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
+
+            <TextBlock x:Name="lblBalance" Text="€"
+                       Foreground="White"
+                       Grid.Column="12"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
+
+        </Grid>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button x:Name="p" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" Margin="0,0,0,40">
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+
+            <Button x:Name="p2" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="60">
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+
+            <Button x:Name="p3" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" Margin="0,40,0,0">
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button x:Name="btnOne" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5"  Margin="0,0,0,40" Click="BtnWithdraw">
+                <Label Visibility="Hidden">100</Label>
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+
+            <Button x:Name="btnTwo" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+
+            <Button x:Name="btnThree" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5" Margin="0, 40, 0, 0">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
