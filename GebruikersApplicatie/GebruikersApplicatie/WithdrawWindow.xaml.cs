@@ -37,7 +37,6 @@ namespace GebruikersApplicatie
         private void BtnWithdraw(object sender, RoutedEventArgs e)
         {
             Button btnThis = sender as Button;
-            btnThis.C
             account.Update(Id, "", account.Balance + 100);
             lblBalance.Text = $"€ {account.Balance}";
         }

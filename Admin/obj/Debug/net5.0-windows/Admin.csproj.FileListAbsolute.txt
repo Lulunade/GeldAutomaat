@@ -5,9 +5,6 @@ C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.runtimecon
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ref\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.pdb
-C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\MySqlConnector.dll
-C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.dll
-C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.pdb
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.AssemblyReference.cache
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\App.g.cs
@@ -19,8 +16,12 @@ C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.GeneratedM
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.AssemblyInfoInputs.cache
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.AssemblyInfo.cs
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.CoreCompileInputs.cache
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.CopyComplete
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\ref\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.pdb
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.genruntimeconfig.cache
+C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\MySqlConnector.dll
+C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.dll
+C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.pdb
+C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.dll.config
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.CopyComplete

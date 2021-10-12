@@ -918,8 +918,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeremy School\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jeremy School\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -930,12 +929,8 @@
       "packagesPath": "C:\\Users\\Jeremy School\\.nuget\\packages\\",
       "outputPath": "C:\\dotnet\\school\\l9\\geldautomaat\\GebruikersApplicatie\\GebruikersApplicatie\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Jeremy School\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

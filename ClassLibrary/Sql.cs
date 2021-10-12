@@ -3,7 +3,7 @@ using System;
 using System.Configuration;
 using System.Data;
 
-namespace GebruikersApplicatie
+namespace ClassLibrary
 {
     public class Sql
     {
