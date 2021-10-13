@@ -918,19 +918,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeremy School\\.nuget\\packages\\": {}
+    "C:\\Users\\jerem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnet\\school\\l9\\geldautomaat\\GebruikersApplicatie\\GebruikersApplicatie\\GebruikersApplicatie.csproj",
+      "projectUniqueName": "D:\\dotnet\\School\\L9\\GeldAutomaat\\GebruikersApplicatie\\GebruikersApplicatie\\GebruikersApplicatie.csproj",
       "projectName": "GebruikersApplicatie",
-      "projectPath": "C:\\dotnet\\school\\l9\\geldautomaat\\GebruikersApplicatie\\GebruikersApplicatie\\GebruikersApplicatie.csproj",
-      "packagesPath": "C:\\Users\\Jeremy School\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnet\\school\\l9\\geldautomaat\\GebruikersApplicatie\\GebruikersApplicatie\\obj\\",
+      "projectPath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\GebruikersApplicatie\\GebruikersApplicatie\\GebruikersApplicatie.csproj",
+      "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
+      "outputPath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\GebruikersApplicatie\\GebruikersApplicatie\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jeremy School\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -944,8 +949,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\dotnet\\school\\l9\\geldautomaat\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\dotnet\\school\\l9\\geldautomaat\\ClassLibrary\\ClassLibrary.csproj"
+            "D:\\dotnet\\School\\L9\\GeldAutomaat\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\ClassLibrary\\ClassLibrary.csproj"
             }
           }
         }
@@ -975,6 +980,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.9, 5.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -983,7 +994,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
       }
     }
   }
