@@ -63,7 +63,6 @@ namespace GebruikersApplicatie
                 MessageBox.Show("Pincode is ONJUIST!");
             }
             
-            MessageBox.Show($"{userPin} {userBankNumber}");
             txbLogin.Clear();
         }
     }

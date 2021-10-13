@@ -22,3 +22,15 @@ C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.deps
 C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.dll
 C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ref\ClassLibrary.dll
 C:\dotnet\school\l9\geldautomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.pdb
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.deps.json
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.dll
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\bin\Debug\net5.0\ref\ClassLibrary.dll
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\bin\Debug\net5.0\ClassLibrary.pdb
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfo.cs
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.dll
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ref\ClassLibrary.dll
+D:\dotnet\School\L9\GeldAutomaat\ClassLibrary\obj\Debug\net5.0\ClassLibrary.pdb

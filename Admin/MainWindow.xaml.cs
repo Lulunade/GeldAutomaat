@@ -30,7 +30,6 @@ namespace Admin
             InitializeComponent();
             txbMail.Focus();
             btnLogin.Click += BtnLogin_Click;
-            MessageBox.Show(Sql.ToString());
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
@@ -49,6 +48,10 @@ namespace Admin
                 if (password == Administrator.Password)
                 {
                     MessageBox.Show("wachtwoord klopt");
+                    SearchWindow searchWindow = new();
+                    searchWindow.Show();
+                    Close();
+
                 }
                 else
                 {

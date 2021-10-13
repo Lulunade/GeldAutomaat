@@ -29,7 +29,6 @@ namespace GebruikersApplicatie
             InitializeComponent();
             this.Id = Id;
 
-            MessageBox.Show("snap je hem");
             account.Read(Id);
             lblBalance.Text = $"€ {account.Balance}";
         }
