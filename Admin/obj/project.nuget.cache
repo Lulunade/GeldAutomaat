@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RwWzqKIEvWwgyZB3f7ei2POEecJ/dNTM9a9dKfWtA8VhBDFgmh039lmhtE0F7VTBN6Ip6TPffxrtBG2GNgh8og==",
+  "dgSpecHash": "SjDHgLQEj1Jah7eQKEfLNbhd4HFjFsq63UqGhVuv57mBYWZrbGpSAFOdixZyccFIi8HeKPBvTVkrxe1NEQyFKg==",
   "success": true,
   "projectFilePath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\Admin\\Admin.csproj",
   "expectedPackageFiles": [
@@ -13,8 +13,7 @@
     "C:\\Users\\jerem\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "C:\\Users\\jerem\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\jerem\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\jerem\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\jerem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\jerem\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
