@@ -30,6 +30,7 @@ namespace Admin
             InitializeComponent();
             txbMail.Focus();
             btnLogin.Click += BtnLogin_Click;
+            Administrator.Create("jrhaarbosch@gmail.com", "lol");
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
@@ -45,7 +46,7 @@ namespace Admin
                 int id = (int)datatable.Rows[0]["ID"];
                 Administrator.Read(id);
                 MessageBox.Show($"Gebruiker gevonden: {id}");
-                if (password == Administrator.Password)
+                if (SecurePasswordHasher.Verify(password, Administrator.Password))
                 {
                     MessageBox.Show("wachtwoord klopt");
                     SearchWindow searchWindow = new();
@@ -55,7 +56,7 @@ namespace Admin
                 }
                 else
                 {
-                    MessageBox.Show("Pincode is ONJUIST!");
+                    MessageBox.Show("wachtwoord is ONJUIST!");
                 }
             }
             else

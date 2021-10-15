@@ -1,0 +1,105 @@
+﻿<Window x:Class="Admin.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Admin"
+        mc:Ignorable="d"
+        Title="SearchWindow" Height="900" Width="1920 ">
+    <Grid x:Name="grid" Background="white">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="#4D805F"
+              Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="lblSearch" Text="Zoeken"
+                       Foreground="White"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontFamily="Montserrat"
+                       FontWeight="Regular"
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
+        </Grid>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
+                <TextBox FontSize="36" VerticalContentAlignment="Center" Height="80" Width="900" x:Name="txbBankNr" Margin="0,0,30,0" Text="Bankrekeningnummer...">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+                <Button FontSize="36" Width="180" Height="80" Name="btnSearch" Margin="0,0,30,0">Zoek</Button>
+                <Button FontSize="36" Width="180" Height="80" Name="btnClear">Wis</Button>
+            </StackPanel>                    
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50">
+                <TextBox VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbLastName" Margin="0,0,30,0">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </TextBox.Resources>
+                    Achternaam...
+                </TextBox>
+                <Button FontSize="36" Width="180" Height="80" Margin="0,0,30,0">Zoek</Button>
+                <Button FontSize="36" Width="180" Height="80">Wis</Button>
+            </StackPanel>
+
+            <DataGrid x:Name="dgAccount" Height="450" Width="1500" AutoGenerateColumns="False" IsReadOnly="true">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding ID}"/>
+                    <DataGridTextColumn Header="Achternaam" Binding="{Binding surname}"/>
+                    <DataGridTextColumn Header="Voornaam" Binding="{Binding first_name}"/>
+                    <DataGridTextColumn Header="Rekeningnummer" Binding="{Binding bank_number}"/>
+                    <DataGridTextColumn Header="E-mail" Binding="{Binding email}"/>
+                    <DataGridTextColumn Header="Telefoonnummer" Binding="{Binding telephone}"/>
+
+
+                    <DataGridTemplateColumn Width="70">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Aanpassen" Click="btnEdit_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Width="70">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Block" Click="btnBlock_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

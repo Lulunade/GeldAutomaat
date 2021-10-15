@@ -24,7 +24,6 @@ C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\MySqlConnector.d
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.dll
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.pdb
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.dll.config
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.CopyComplete
 D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\Admin.exe
 D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\Admin.dll.config
 D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\Admin.deps.json
@@ -53,3 +52,5 @@ D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.dll
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\ref\Admin.dll
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.pdb
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.genruntimeconfig.cache
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.baml

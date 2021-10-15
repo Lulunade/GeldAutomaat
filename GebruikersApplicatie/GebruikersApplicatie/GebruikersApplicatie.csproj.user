@@ -7,39 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Dashboard.xaml.cs">
+    <Compile Update="Views\Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="DepositWindow.xaml.cs">
+    <Compile Update="Views\DepositWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="PinWindow.xaml.cs">
+    <Compile Update="Views\PinWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TransactionsWindow.xaml.cs">
+    <Compile Update="Views\TransactionsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WithdrawWindow.xaml.cs">
+    <Compile Update="Views\WithdrawWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Dashboard.xaml">
+    <Page Update="Views\Dashboard.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="DepositWindow.xaml">
+    <Page Update="Views\DepositWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="PinWindow.xaml">
+    <Page Update="Views\PinWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TransactionsWindow.xaml">
+    <Page Update="Views\TransactionsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WithdrawWindow.xaml">
+    <Page Update="Views\WithdrawWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
