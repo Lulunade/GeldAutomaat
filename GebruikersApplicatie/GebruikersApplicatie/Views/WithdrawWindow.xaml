@@ -37,9 +37,9 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="lblDashboard" Text="Dashboard"
+            <TextBlock x:Name="lblWithdraw" Text="Geld opnemen"
                        Foreground="White"
-                       Grid.Column="1"
+                       Grid.Column="0"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontWeight="Medium"

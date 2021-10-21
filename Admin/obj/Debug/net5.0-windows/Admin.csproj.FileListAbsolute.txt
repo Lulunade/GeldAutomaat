@@ -6,11 +6,9 @@ C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\ref\Admin.dll
 C:\dotnet\school\l9\geldautomaat\Admin\bin\Debug\net5.0-windows\Admin.pdb
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.AssemblyReference.cache
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\App.g.cs
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin_MarkupCompile.cache
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin_MarkupCompile.lref
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\MainWindow.baml
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.g.resources
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.GeneratedMSBuildEditorConfig.editorconfig
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Admin.AssemblyInfoInputs.cache
@@ -52,5 +50,7 @@ D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.dll
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\ref\Admin.dll
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.pdb
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.genruntimeconfig.cache
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.baml
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow.baml
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.baml
