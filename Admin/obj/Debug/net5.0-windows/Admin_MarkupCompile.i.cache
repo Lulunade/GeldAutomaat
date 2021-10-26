@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\
 Admin
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\dotnet\school\l9\geldautomaat\Admin\App.xaml
-2-633948258
+D:\dotnet\School\L9\GeldAutomaat\Admin\App.xaml
+3-1698638061
 
-6-1680530763
-196800604603
-Views\MainWindow.xaml;Views\SearchWindow.xaml;
+71642367209
+1961746996217
+Views\EditWindow.xaml;Views\MainWindow.xaml;Views\SearchWindow.xaml;
 
-True
+False
 

@@ -34,13 +34,9 @@ D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\MySqlConnector.d
 D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.dll
 D:\dotnet\School\L9\GeldAutomaat\Admin\bin\Debug\net5.0-windows\ClassLibrary.pdb
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.csproj.AssemblyReference.cache
-D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\MainWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.g.cs
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\App.g.cs
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin_MarkupCompile.cache
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin_MarkupCompile.lref
-D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\MainWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\SearchWindow.baml
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.g.resources
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.GeneratedMSBuildEditorConfig.editorconfig
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Admin.AssemblyInfoInputs.cache
@@ -54,3 +50,9 @@ C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.g.cs
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow.baml
 C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.baml
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.g.cs
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow.baml
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.baml
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.g.cs
+D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.baml

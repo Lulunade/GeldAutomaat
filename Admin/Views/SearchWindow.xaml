@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Admin"
         mc:Ignorable="d"
-        Title="SearchWindow" Height="900" Width="1920 ">
+        Title="SearchWindow" Height="1080" Width="1920 ">
     <Grid x:Name="grid" Background="white">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -49,7 +49,7 @@
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
-                <TextBox FontSize="36" VerticalContentAlignment="Center" Height="80" Width="900" x:Name="txbBankNr" Margin="0,0,30,0" Text="Bankrekeningnummer...">
+                <TextBox Padding="20,0,0,0" FontSize="36" VerticalContentAlignment="Center" Height="80" Width="900" x:Name="txbBankNr" Margin="0,0,30,0" Text="Bankrekeningnummer...">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="20"/>
@@ -61,7 +61,7 @@
             </StackPanel>                    
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50">
-                <TextBox VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbLastName" Margin="0,0,30,0">
+                <TextBox Padding="20,0,0,0" VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbLastName" Margin="0,0,30,0">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="20"/>
@@ -73,14 +73,18 @@
                 <Button FontSize="36" Width="180" Height="80">Wis</Button>
             </StackPanel>
 
-            <DataGrid x:Name="dgAccount" Height="450" Width="1500" AutoGenerateColumns="False" IsReadOnly="true">
+            <DataGrid Name="dgClient" Height="450" Width="1500" 
+                      AutoGenerateColumns="False" 
+                      IsReadOnly="true" 
+                      ItemsSource="{Binding Path=LoadDataBinding}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Id" Binding="{Binding ID}"/>
-                    <DataGridTextColumn Header="Achternaam" Binding="{Binding surname}"/>
-                    <DataGridTextColumn Header="Voornaam" Binding="{Binding first_name}"/>
-                    <DataGridTextColumn Header="Rekeningnummer" Binding="{Binding bank_number}"/>
-                    <DataGridTextColumn Header="E-mail" Binding="{Binding email}"/>
-                    <DataGridTextColumn Header="Telefoonnummer" Binding="{Binding telephone}"/>
+                    <DataGridTextColumn Header="Client ID" Binding="{Binding Path=client_ID}"/>
+                    <DataGridTextColumn Header="Account ID" Binding="{Binding Path=ID}"/>
+                    <DataGridTextColumn Header="Rekeningnummer" Binding="{Binding Path=bank_number}"/>
+                    <DataGridTextColumn Header="Achternaam" Binding="{Binding Path=surname}"/>
+                    <DataGridTextColumn Header="Voornaam" Binding="{Binding Path=last_name}"/>
+                    <DataGridTextColumn Header="E-mail" Binding="{Binding Path=e-mail}"/>
+                    <DataGridTextColumn Header="Telefoonnummer" Binding="{Binding Path=telephone}"/>
 
 
                     <DataGridTemplateColumn Width="70">

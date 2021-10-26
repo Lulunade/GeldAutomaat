@@ -1,6 +1,8 @@
-﻿using ClassLibrary;
+﻿using Admin.Views;
+using ClassLibrary;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,24 +22,27 @@ namespace Admin
     /// </summary>
     public partial class SearchWindow : Window
     {
-        Sql Sql = new();
         public SearchWindow()
         {
-            InitializeComponent();
-            dgAccount.DataContext = Sql.getDataSet("SELECT * FROM account");
+            Sql Sql = new Sql();
 
+            InitializeComponent();
+            dgClient.DataContext = Sql.getDataSet("SELECT * FROM account INNER JOIN client ON account.client_ID = client.ID");
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
-            object item = dgAccount.SelectedItem;
-            int userId = int.Parse((dgAccount.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text);
+            object item = dgClient.SelectedItem;
+            int userId = int.Parse((dgClient.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text);
+            
+            EditWindow window = new EditWindow(userId);
+            window.Show();
         }
 
         private void btnBlock_Click(object sender, RoutedEventArgs e)
         {
-            object item = dgAccount.SelectedItem;
-            int userId = int.Parse((dgAccount.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text);
+            object item = dgClient.SelectedItem;
+            int userId = int.Parse((dgClient.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text);
         }
     }
 }
