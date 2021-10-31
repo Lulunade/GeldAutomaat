@@ -81,10 +81,11 @@
                     <DataGridTextColumn Header="Client ID" Binding="{Binding Path=client_ID}"/>
                     <DataGridTextColumn Header="Account ID" Binding="{Binding Path=ID}"/>
                     <DataGridTextColumn Header="Rekeningnummer" Binding="{Binding Path=bank_number}"/>
-                    <DataGridTextColumn Header="Achternaam" Binding="{Binding Path=surname}"/>
-                    <DataGridTextColumn Header="Voornaam" Binding="{Binding Path=last_name}"/>
+                    <DataGridTextColumn Header="Achternaam" Binding="{Binding Path=last_name}"/>
+                    <DataGridTextColumn Header="Voornaam" Binding="{Binding Path=surname}"/>
                     <DataGridTextColumn Header="E-mail" Binding="{Binding Path=e-mail}"/>
                     <DataGridTextColumn Header="Telefoonnummer" Binding="{Binding Path=telephone}"/>
+                    <DataGridTextColumn Header="Geblokkeerd" Binding="{Binding Path=blocked}"/>
 
 
                     <DataGridTemplateColumn Width="70">
@@ -98,7 +99,7 @@
                     <DataGridTemplateColumn Width="70">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <Button Content="Block" Click="btnBlock_Click"/>
+                                <Button Name="btnBlock" Content="Block" Click="btnBlock_Click"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>

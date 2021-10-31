@@ -30,7 +30,7 @@ namespace Admin
             InitializeComponent();
             txbMail.Focus();
             btnLogin.Click += BtnLogin_Click;
-            Administrator.Create("jrhaarbosch@gmail.com", "lol");
+            /*Administrator.Create("jrhaarbosch@gmail.com", "lol");*/
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
@@ -45,7 +45,6 @@ namespace Admin
             {
                 int id = (int)datatable.Rows[0]["ID"];
                 Administrator.Read(id);
-                MessageBox.Show($"Gebruiker gevonden: {id}");
                 if (SecurePasswordHasher.Verify(password, Administrator.Password))
                 {
                     MessageBox.Show("wachtwoord klopt");

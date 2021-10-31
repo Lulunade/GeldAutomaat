@@ -48,37 +48,144 @@
         </Grid>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
-                <TextBox Padding="20,0,0,0" FontSize="36" VerticalContentAlignment="Center" Height="80" Width="900" x:Name="txbFirstName" Margin="0,0,30,0">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label FontSize="26" VerticalContentAlignment="Center" Margin="0,0,20,0">Voornaam:</Label>
+                <TextBox Padding="20,0,0,0" FontSize="36" VerticalContentAlignment="Center" Height="80" Width="900" x:Name="txbSurname" Margin="0,0,30,0">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="20"/>
                         </Style>
                     </TextBox.Resources>
-                    Voornaam...
                 </TextBox>
             </StackPanel>                    
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label FontSize="26" VerticalContentAlignment="Center" Margin="0,0,20,0">Achternaam:</Label>
                 <TextBox Padding="20,0,0,0" VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbLastName" Margin="0,0,30,0">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="20"/>
                         </Style>
                     </TextBox.Resources>
-                    Achternaam...
                 </TextBox>
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label FontSize="26" VerticalContentAlignment="Center" Margin="0,0,20,0">E-mail:</Label>
                 <TextBox Padding="20,0,0,0" VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbEmail" Margin="0,0,30,0">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="20"/>
                         </Style>
                     </TextBox.Resources>
-                    E-mail...
                 </TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label FontSize="26" VerticalContentAlignment="Center" Margin="0,0,20,0">Telefoonnummer:</Label>
+                <TextBox Padding="20,0,0,0" VerticalContentAlignment="Center" FontSize="36" Height="80" Width="900" x:Name="txbPhone" Margin="0,0,30,0">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Right">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                    <Button x:Name="btnErase" Content="Wis"
+                                Foreground="#499F68"
+                                FontSize="25"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#F2F0F0"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="60"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="btnCancel" Content="Annuleer"
+                                Foreground="#499F68"
+                                FontSize="25"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#F2F0F0"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="60"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="btnSubmit" Content="Verzend"
+                                Foreground="White"
+                                FontSize="25"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#499F68"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="60"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                </StackPanel>                 
             </StackPanel>
 
         </StackPanel>

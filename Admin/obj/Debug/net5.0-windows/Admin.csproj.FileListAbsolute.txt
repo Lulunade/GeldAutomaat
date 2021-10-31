@@ -56,3 +56,5 @@ D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\MainWindow
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\SearchWindow.baml
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.g.cs
 D:\dotnet\School\L9\GeldAutomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.baml
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\Admin\obj\Debug\net5.0-windows\Views\EditWindow.baml

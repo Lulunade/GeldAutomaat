@@ -22,12 +22,12 @@ namespace Admin
     /// </summary>
     public partial class SearchWindow : Window
     {
+        Account account = new();
+        
         public SearchWindow()
         {
-            Sql Sql = new Sql();
-
             InitializeComponent();
-            dgClient.DataContext = Sql.getDataSet("SELECT * FROM account INNER JOIN client ON account.client_ID = client.ID");
+            dgClient.DataContext = account.getData();
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)
@@ -37,12 +37,27 @@ namespace Admin
             
             EditWindow window = new EditWindow(userId);
             window.Show();
+            this.Close();
         }
 
         private void btnBlock_Click(object sender, RoutedEventArgs e)
         {
+            Account account = new();
             object item = dgClient.SelectedItem;
-            int userId = int.Parse((dgClient.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text);
+            int accId = int.Parse((dgClient.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text);
+
+
+            account.Read(accId);
+
+            if (!account.Blocked)
+            {
+                account.Block(accId, true);
+            } else
+            {
+                account.Block(accId, false);
+            }
+
+            dgClient.DataContext = account.getData();
         }
     }
 }

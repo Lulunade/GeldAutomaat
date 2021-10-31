@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\
 GebruikersApplicatie
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\App.xaml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\App.xaml
 6-1112841158
 
 101089574670
-204852113102
+204406359889
 Views\Dashboard.xaml;Views\DepositWindow.xaml;Views\MainWindow.xaml;Views\PinWindow.xaml;Views\TransactionsWindow.xaml;Views\WithdrawWindow.xaml;
 
 False

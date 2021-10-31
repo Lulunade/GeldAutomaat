@@ -51,12 +51,12 @@ namespace ClassLibrary
                 Telephone = this.Telephone;
             }
 
-            string SQL = string.Format("Update question_answer " +
-                                       "Set surname               = '{0}', " +
-                                           "last_name             = '{1}', " +
-                                           "e-mail                = '{2}', " +
-                                           "telephone             = '{3}'" +
-                                       "WHERE ID =  {2}", Surname, LastName, Email, Telephone, Id);
+            string SQL = string.Format("Update client " +
+                                       "Set `surname`               = '{0}', " +
+                                           "`last_name`             = '{1}', " +
+                                           "`e-mail`                = '{2}', " +
+                                           "`telephone`             = '{3}' " +
+                                       "WHERE ID =  {4}", Surname, LastName, Email, Telephone, Id);
 
             Sql.ExecuteNonQuery(SQL);
         }

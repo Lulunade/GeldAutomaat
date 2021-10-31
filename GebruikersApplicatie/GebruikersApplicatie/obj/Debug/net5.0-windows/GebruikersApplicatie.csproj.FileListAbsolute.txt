@@ -154,3 +154,4 @@ C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\D
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.baml
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.baml
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete

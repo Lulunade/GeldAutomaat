@@ -21,14 +21,17 @@ namespace ClassLibrary
         public void LinkClient(int ClientId)
         {
             this.ClientId = ClientId;
+            string sql = string.Format("UPDATE account SET client_id = '{0}' WHERE ID = {1}", ClientId, this.Id);
+
+            Sql.ExecuteNonQuery(sql);
         }
 
-        public void Create(string BankNumber, double Balance)
+        public void Create(string BankNumber, double Balance = 0)
         {
-            string SQL = string.Format("INSERT INTO betaalautomaat.account (bank_number, balance) VALUES ('{0}','{1}')",
+            string sql = string.Format("INSERT INTO betaalautomaat.account (bank_number, balance) VALUES ('{0}','{1}')",
                 BankNumber, Balance);
 
-            Sql.ExecuteNonQuery(SQL);
+            Sql.ExecuteNonQuery(sql);
         }
 
         public void Update(int Id, string BankNumber = "", double Balance = 0, int ClientId = 0)
@@ -48,22 +51,32 @@ namespace ClassLibrary
                 ClientId = this.ClientId;
             }
 
-            string SQL = string.Format("Update question_answer " +
+            string sql = string.Format("Update account " +
                                        "Set bank_number            = '{0}', " +
                                            "balance                = '{1}', " +
-                                           "client_id              = '{2}'" +
+                                           "client_id              = '{2}' " +
                                             "WHERE ID =  {3}", BankNumber, Balance, ClientId, Id);
 
             this.BankNumber = BankNumber;
             this.Balance = Balance;
             this.ClientId = ClientId;
 
-            Sql.ExecuteNonQuery(SQL);
+            Sql.ExecuteNonQuery(sql);
+        }
+
+        public void Block(int id, bool status)
+        {
+
+            string sql = string.Format("UPDATE account SET blocked = {0} WHERE ID = {1}", status, id);
+
+            this.Blocked = status;
+
+            Sql.ExecuteNonQuery(sql);
         }
         
         public void Read(int Id)
         {
-            string SQL = string.Format("SELECT * FROM betaalautomaat.account WHERE id = {0}", Id);
+            string SQL = string.Format("SELECT * FROM betaalautomaat.account WHERE ID = {0}", Id);
 
             DataTable datatable = Sql.getDataTable(SQL);
             this.Id = (int)datatable.Rows[0]["ID"];
@@ -72,6 +85,13 @@ namespace ClassLibrary
             ClientId = (int)datatable.Rows[0]["client_ID"];
             Blocked = (bool)datatable.Rows[0]["blocked"];
             Pin = datatable.Rows[0]["pin"].ToString();
+        }
+
+        public DataSet getData()
+        {
+            string sql = "SELECT * FROM account INNER JOIN client ON account.client_ID = client.ID";
+
+            return Sql.getDataSet(sql);
         }
     }
 }

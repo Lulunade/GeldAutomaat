@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,15 +23,78 @@ namespace Admin.Views
     {
         public int Id { get; set; }
 
+        Client client = new();
+        Account account = new();
+        Sql sql = new();
+
         public EditWindow()
         {
             InitializeComponent();
+            btnCancel.Click += BtnCancel_Click;
+            btnErase.Click += BtnErase_Click;
+            btnSubmit.Click += BtnSubmit_Click1;
+        }
+
+        private void BtnSubmit_Click1(object sender, RoutedEventArgs e)
+        {
+            string email = txbEmail.Text;
+            string surname = txbSurname.Text;
+            string lastName = txbLastName.Text;
+            string phone = txbPhone.Text;
+
+            client.Create(surname, lastName, email, phone);
+            string SQL = String.Format("SELECT ID FROM `client` WHERE `surname` = '{0}' AND `last_name` = '{1}' AND `e-mail` = '{2}' AND `telephone` AND '{3}'", surname, lastName, email, phone);
+            DataTable dtb = sql.getDataTable(SQL);
+            this.Id = (int)dtb.Rows[0]["ID"];
+
+            account.Create("0123456", 0);
+            account.LinkClient(this.Id);
+
+            SearchWindow win = new();
+            win.Show();
+            this.Close();
+        }
+
+        private void BtnErase_Click(object sender, RoutedEventArgs e)
+        {
+            txbEmail.Text = "";
+            txbLastName.Text = "";
+            txbPhone.Text = "";
+            txbSurname.Text = "";
+        }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            SearchWindow win = new();
+            win.Show();
+            this.Close();
         }
 
         public EditWindow(int Id)
         {
             InitializeComponent();
             this.Id = Id;
+            client.Read(Id);
+            txbEmail.Text = client.Email;
+            txbSurname.Text = client.Surname;
+            txbLastName.Text = client.LastName;
+            txbPhone.Text = client.Telephone;
+            btnCancel.Click += BtnCancel_Click;
+            btnErase.Click += BtnErase_Click;
+            btnSubmit.Click += BtnSubmit_Click;
+        }
+
+        private void BtnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            string email = txbEmail.Text;
+            string surname = txbSurname.Text;
+            string lastName = txbLastName.Text;
+            string phone = txbPhone.Text;
+
+            client.Update(this.Id, surname, lastName, email, phone);
+            SearchWindow win = new();
+            win.Show();
+            this.Close();
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)
