@@ -24,10 +24,8 @@ namespace ClassLibrary
             this.Email = Email;
             this.Telephone = Telephone;
 
-            string SQL = string.Format("INSERT INTO betaalautomaat.client (surname, last_name, e-mail, telephone) VALUES ('{0}','{1}','{2}','{3}')",
+            string SQL = string.Format("INSERT INTO betaalautomaat.client (`surname`, `last_name`, `e-mail`, `telephone`) VALUES ('{0}','{1}','{2}','{3}')",
                 Surname, LastName, Email, Telephone);
-
-            DataTable datatable = Sql.getDataTable(SQL);
 
             Sql.ExecuteNonQuery(SQL);
         }

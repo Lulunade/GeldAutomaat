@@ -23,11 +23,48 @@ namespace Admin
     public partial class SearchWindow : Window
     {
         Account account = new();
+        Sql Sql = new();
         
         public SearchWindow()
         {
             InitializeComponent();
             dgClient.DataContext = account.getData();
+            btnAdd.Click += BtnAdd_Click;
+            btnSearch.Click += BtnSearch_Click;
+            btnSearch2.Click += BtnSearch2_Click;
+            btnClear.Click += BtnClear_Click;
+            btnClear2.Click += BtnClear2_Click;
+        }
+
+        private void BtnClear2_Click(object sender, RoutedEventArgs e)
+        {
+            txbLastName.Text = "";
+            dgClient.DataContext = account.getData();
+        }
+
+        private void BtnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txbBankNr.Text = "";
+            dgClient.DataContext = account.getData();
+        }
+
+        private void BtnSearch2_Click(object sender, RoutedEventArgs e)
+        {
+            string sql = string.Format("SELECT * FROM account INNER JOIN client ON account.client_ID = client.ID AND `last_name` LIKE '{0}'", txbLastName.Text);
+            dgClient.DataContext = Sql.getDataSet(sql);
+        }
+
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string sql = string.Format("SELECT * FROM account INNER JOIN client ON account.client_ID = client.ID AND `bank_number` LIKE '{0}'", txbBankNr.Text);
+            dgClient.DataContext = Sql.getDataSet(sql);
+        }
+
+        private void BtnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            EditWindow window = new();
+            window.Show();
+            this.Close();
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)

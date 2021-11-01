@@ -51,7 +51,7 @@
         <StackPanel Grid.Row="2" Grid.Column="2"/>
 
         <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBox Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
+            <PasswordBox Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></PasswordBox>
             <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnSeven" Content="7"
                             Foreground="White"

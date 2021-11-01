@@ -40,7 +40,7 @@
         <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label FontSize="72">Medewerker Login</Label>
             <TextBox FontSize="48" HorizontalAlignment="Center" Name="txbMail">E-mail</TextBox>
-            <TextBox FontSize="48" HorizontalAlignment="Center" Margin="0,20,0,30" Name="txbPassword">Wachtwoord</TextBox>
+            <PasswordBox FontSize="48" HorizontalAlignment="Center" Margin="0,20,0,30" Name="txbPassword" Password="password"></PasswordBox>
             <Button x:Name="btnLogin" Content="Login"
                         Foreground="White"
                         FontSize="48"

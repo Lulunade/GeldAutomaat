@@ -47,8 +47,20 @@ namespace Admin.Views
             DataTable dtb = sql.getDataTable(SQL);
             this.Id = (int)dtb.Rows[0]["ID"];
 
-            account.Create("0123456", 0);
-            account.LinkClient(this.Id);
+            Random rnd = new Random();
+            string rand = rnd.Next(99).ToString();
+
+            string sqlR = String.Format("SELECT ID FROM `account` WHERE `bank_number` = '{0}'", rand);
+            if (sql.getDataTable(sqlR) != null)
+            {
+                rand = rnd.Next(99).ToString();
+            }
+
+            account.Create(rand, 0);
+            string SQL2 = String.Format("SELECT ID FROM `account` WHERE `bank_number` = '{0}'", rand);
+            DataTable dtb2 = sql.getDataTable(SQL2);
+            int id = (int)dtb2.Rows[0]["ID"];
+            account.LinkClient(id, this.Id);
 
             SearchWindow win = new();
             win.Show();

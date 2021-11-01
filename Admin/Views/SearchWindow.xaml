@@ -69,8 +69,8 @@
                     </TextBox.Resources>
                     Achternaam...
                 </TextBox>
-                <Button FontSize="36" Width="180" Height="80" Margin="0,0,30,0">Zoek</Button>
-                <Button FontSize="36" Width="180" Height="80">Wis</Button>
+                <Button Name="btnSearch2" FontSize="36" Width="180" Height="80" Margin="0,0,30,0">Zoek</Button>
+                <Button Name="btnClear2" FontSize="36" Width="180" Height="80">Wis</Button>
             </StackPanel>
 
             <DataGrid Name="dgClient" Height="450" Width="1500" 
@@ -105,6 +105,10 @@
                     </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
+
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,20,0,0">
+                <Button Name="btnAdd" Padding="10" FontSize="50">Add</Button>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

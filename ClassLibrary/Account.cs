@@ -18,26 +18,25 @@ namespace ClassLibrary
         public string Pin { get; set; }
         public bool Blocked { get; set; }
 
-        public void LinkClient(int ClientId)
+        public void LinkClient(int Id, int ClientId)
         {
             this.ClientId = ClientId;
-            string sql = string.Format("UPDATE account SET client_id = '{0}' WHERE ID = {1}", ClientId, this.Id);
+            string sql = string.Format("UPDATE account SET client_id = '{0}' WHERE ID = {1}", ClientId, Id);
 
             Sql.ExecuteNonQuery(sql);
         }
 
         public void Create(string BankNumber, double Balance = 0)
         {
-            string sql = string.Format("INSERT INTO betaalautomaat.account (bank_number, balance) VALUES ('{0}','{1}')",
-                BankNumber, Balance);
+            this.Pin = SecurePasswordHasher.Hash("0000");
+            string sql = string.Format("INSERT INTO betaalautomaat.account (bank_number, balance, pin) VALUES ('{0}','{1}','{2}')",
+                BankNumber, Balance, this.Pin);
 
             Sql.ExecuteNonQuery(sql);
         }
 
         public void Update(int Id, string BankNumber = "", double Balance = 0, int ClientId = 0)
         {
-            Read(Id);
-
             if (string.IsNullOrEmpty(BankNumber))
             {
                 BankNumber = this.BankNumber;
@@ -61,6 +60,12 @@ namespace ClassLibrary
             this.Balance = Balance;
             this.ClientId = ClientId;
 
+            Sql.ExecuteNonQuery(sql);
+        }
+
+        public void UpdateBalance(int Id, double Balance = 0)
+        {
+            string sql = string.Format("UPDATE account SET balance = '{0}' WHERE ID = {1}", Balance, Id);
             Sql.ExecuteNonQuery(sql);
         }
 

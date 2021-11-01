@@ -30,13 +30,13 @@ namespace Admin
             InitializeComponent();
             txbMail.Focus();
             btnLogin.Click += BtnLogin_Click;
-            /*Administrator.Create("jrhaarbosch@gmail.com", "lol");*/
+/*            Administrator.Create("layla", "lol");*/
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
             string user = txbMail.Text;
-            string password = txbPassword.Text;
+            string password = txbPassword.Password;
             txbMail.Clear();
             string SQL = $"SELECT * FROM betaalautomaat.administrator WHERE username = \"{user}\"";
             DataTable datatable = Sql.getDataTable(SQL);

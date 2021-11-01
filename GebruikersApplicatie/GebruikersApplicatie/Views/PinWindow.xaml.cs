@@ -34,16 +34,16 @@ namespace GebruikersApplicatie
         {
             Button btnThis = sender as Button;
             string n = btnThis.Content.ToString();
-            txbLogin.Text += n;
+            txbLogin.Password += n;
         }
 
 
         private void BtnDel_Click(object sender, RoutedEventArgs e)
         {
             Button btnThis = sender as Button;
-            if (txbLogin.Text.Length >= 1)
+            if (txbLogin.Password.Length >= 1)
             {
-                txbLogin.Text = txbLogin.Text[0..^1];
+                txbLogin.Password = txbLogin.Password[0..^1];
             }
         }
 
@@ -52,7 +52,7 @@ namespace GebruikersApplicatie
             int Id = this.Id;
             Account.Read(Id);
             string userBankNumber = Account.BankNumber;
-            string userPin = txbLogin.Text;
+            string userPin = txbLogin.Password;
             if (SecurePasswordHasher.Verify(userPin, Account.Pin))
             {
                 Dashboard dashboard = new(Id);
