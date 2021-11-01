@@ -117,7 +117,7 @@ namespace Admin.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Admin;V1.0.0.0;component/views/editwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Admin;component/views/editwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EditWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

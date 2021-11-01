@@ -20,8 +20,12 @@ namespace GebruikersApplicatie
     /// </summary>
     public partial class DepositWindow : Window
     {
-        public int Id;
 
+        public int Id;
+        double transactionAmount = 0;
+        bool deposited = false;
+
+        Transaction transaction = new();
         Account account = new();
 
         public DepositWindow(int Id)
@@ -31,6 +35,66 @@ namespace GebruikersApplicatie
 
             account.Read(Id);
             lblBalance.Text = $"€ {account.Balance}";
+            btnP.Click += BtnP_Click;
+            btnP2.Click += BtnP2_Click;
+            btnP3.Click += BtnP3_Click;
+            btnP4.Click += BtnP4_Click;
+            btnP5.Click += BtnP5_Click;
+            btnPCustom.Click += BtnPCustom_Click;
+        }
+
+        private void BtnPCustom_Click(object sender, RoutedEventArgs e)
+        {
+            if (deposited)
+            {
+                MessageBox.Show("Je moet eerst uitloggen");
+            }
+            else if (transactionAmount == 0)
+            {
+                MessageBox.Show("Er is nog niks ingevuld");
+            }
+            else
+            {
+                deposited = true;
+                transaction.Create(transactionAmount, "+", this.Id);
+                Dashboard win = new(this.Id);
+                win.Show();
+                this.Close();
+            }
+        }
+
+        private void BtnP5_Click(object sender, RoutedEventArgs e)
+        {
+            Deposit(500);
+        }
+
+        private void BtnP4_Click(object sender, RoutedEventArgs e)
+        {
+            Deposit(400);
+        }
+
+        private void BtnP3_Click(object sender, RoutedEventArgs e)
+        {
+            Deposit(300);
+        }
+
+        private void BtnP2_Click(object sender, RoutedEventArgs e)
+        {
+            Deposit(200);
+        }
+
+        private void Deposit(double amount)
+        {
+
+            account.Update(this.Id, account.BankNumber, (account.Balance + amount));
+            account.Balance = account.Balance + amount;
+            lblBalance.Text = $"€ {account.Balance}";
+            transactionAmount += amount;
+        }
+
+        private void BtnP_Click(object sender, RoutedEventArgs e)
+        {
+            Deposit(100);
         }
     }
 }

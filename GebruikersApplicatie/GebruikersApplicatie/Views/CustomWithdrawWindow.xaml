@@ -1,11 +1,11 @@
-﻿<Window x:Class="GebruikersApplicatie.PinWindow"
+﻿<Window x:Class="GebruikersApplicatie.Views.CustomWithdrawWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GebruikersApplicatie"
+        xmlns:local="clr-namespace:GebruikersApplicatie.Views"
         mc:Ignorable="d"
-        Title="Inloggen" Height="700" Width="1200" >
+        Title="CustomWithdrawWindow" Height="700" Width="1200">
     <Grid x:Name="grid" Background="#499F68">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -13,7 +13,6 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
@@ -37,7 +36,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="lblInloggen" Text="Inloggen"
+            <TextBlock x:Name="LabelQuiztime" Text="Inloggen"
                        Foreground="White"
                        Grid.Column="1"
                        VerticalAlignment="Center"
@@ -48,10 +47,9 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="2" Grid.Column="2"/>
-
-        <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <PasswordBox Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White" VerticalContentAlignment="Center"></PasswordBox>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="40" Margin="0,0,0,20" Name="lblWarning">Let op: tot maximaal €500 openemen</Label>
+            <TextBox VerticalContentAlignment="Center" Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
             <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnSeven" Content="7"
                             Foreground="White"
@@ -428,7 +426,5 @@
                 </Button>
             </StackPanel>
         </StackPanel>
-        <Label x:Name="lblLogin" FontSize="40" Content="Voer uw pincode in:" Margin="30,87,580,410" Grid.Row="1" Foreground="White" Grid.ColumnSpan="2"/>
 
-    </Grid>
-</Window>
+    </Grid></Window>

@@ -1,6 +1,7 @@
 ﻿using ClassLibrary;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,57 +14,55 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace GebruikersApplicatie
+namespace GebruikersApplicatie.Views
 {
     /// <summary>
-    /// Interaction logic for PinWindow.xaml
+    /// Interaction logic for CustomWithdrawWindow.xaml
     /// </summary>
-    public partial class PinWindow : Window
+    public partial class CustomWithdrawWindow : Window
     {
-        int Id;
-        Account Account = new();
+        Sql Sql = new();
 
-        public PinWindow(int Id)
+        public CustomWithdrawWindow()
         {
             InitializeComponent();
-            this.Id = Id;
-            txbLogin.Focus();
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)
         {
             Button btnThis = sender as Button;
             string n = btnThis.Content.ToString();
-            txbLogin.Password += n;
+            txbLogin.Text += n;
         }
 
 
         private void BtnDel_Click(object sender, RoutedEventArgs e)
         {
             Button btnThis = sender as Button;
-            if (txbLogin.Password.Length >= 1)
+            if (txbLogin.Text.Length >= 1)
             {
-                txbLogin.Password = txbLogin.Password[0..^1];
+                txbLogin.Text = txbLogin.Text.Substring(0,txbLogin.Text.Length - 1);
             }
         }
 
         private void BtnEvaluate_Click(object sender, RoutedEventArgs e)
         {
-            int Id = this.Id;
-            Account.Read(Id);
-            string userBankNumber = Account.BankNumber;
-            string userPin = txbLogin.Password;
-            if (SecurePasswordHasher.Verify(userPin, Account.Pin))
+            string userBankNumber = txbLogin.Text;
+            txbLogin.Clear();
+            string SQL = $"SELECT * FROM betaalautomaat.account WHERE `bank_number` = \"{userBankNumber}\"";
+            DataTable datatable = Sql.getDataTable(SQL);
+
+            if (datatable.Rows.Count > 0)
             {
-                Dashboard dashboard = new(Id);
-                dashboard.Show();
+                int id = (int)datatable.Rows[0]["ID"];
+                PinWindow pinWindow = new PinWindow(id);
+                pinWindow.Show();
                 Close();
             } else
             {
-                MessageBox.Show("Pincode is ONJUIST!");
+                MessageBox.Show("Bankrekening bestaat niet!");
             }
-            
-            txbLogin.Clear();
         }
+
     }
 }

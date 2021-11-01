@@ -513,24 +513,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jerem\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jeremy School\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnet\\School\\L9\\GeldAutomaat\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\dotnet\\school\\l9\\geldautomaat\\ClassLibrary\\ClassLibrary.csproj",
       "projectName": "ClassLibrary",
-      "projectPath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\ClassLibrary\\ClassLibrary.csproj",
-      "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnet\\School\\L9\\GeldAutomaat\\ClassLibrary\\obj\\",
+      "projectPath": "C:\\dotnet\\school\\l9\\geldautomaat\\ClassLibrary\\ClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\Jeremy School\\.nuget\\packages\\",
+      "outputPath": "C:\\dotnet\\school\\l9\\geldautomaat\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Jeremy School\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -23,6 +23,7 @@ namespace GebruikersApplicatie
         public int Id;
 
         Account account = new();
+        Sql Sql = new();
 
         public TransactionsWindow(int Id)
         {
@@ -31,6 +32,8 @@ namespace GebruikersApplicatie
 
             account.Read(Id);
             lblBalance.Text = $"€ {account.Balance}";
+            string sql = string.Format("SELECT * from `transaction` WHERE `account_ID` = {0} LIMIT 3", this.Id);
+            dgClient.DataContext = Sql.getDataSet(sql);
         }
     }
 }

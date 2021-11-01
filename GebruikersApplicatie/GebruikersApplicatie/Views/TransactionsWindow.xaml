@@ -14,7 +14,6 @@
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid Background="#4D805F"
@@ -37,9 +36,9 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="lblDashboard" Text="Dashboard"
+            <TextBlock Text="Transacties"
                        Foreground="White"
-                       Grid.Column="1"
+                       Grid.Column="0"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontWeight="Medium"
@@ -56,5 +55,18 @@
                        Grid.ColumnSpan="2"/>
 
         </Grid>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <DataGrid Name="dgClient" Height="200" Width="400" 
+                      AutoGenerateColumns="False" 
+                      IsReadOnly="true" 
+                      ItemsSource="{Binding Path=LoadDataBinding}"
+                      CanUserSortColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn FontSize="40" Width="50" Binding="{Binding Path=deposit}"/>
+                    <DataGridTextColumn FontSize="40" Width="450" Binding="{Binding Path=amount}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
     </Grid>
 </Window>

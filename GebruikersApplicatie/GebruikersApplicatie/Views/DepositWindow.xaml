@@ -58,21 +58,50 @@
         </Grid>
 
         <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">
-            <Button x:Name="p" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" Margin="0,0,0,40">
-                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
-            </Button>
+            <StackPanel Orientation="Horizontal">
+                <Label VerticalContentAlignment="Center" FontSize="35" Foreground="White">€ 400</Label>
 
-            <Button x:Name="p2" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="60">
-                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
-            </Button>
+                <Button x:Name="btnP4" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                    <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+                </Button>
+            </StackPanel>
 
-            <Button x:Name="p3" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" Margin="0,40,0,0">
-                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
-            </Button>
+            <StackPanel Orientation="Horizontal" Margin="0,75,0,75">
+                <Label VerticalContentAlignment="Center" FontSize="35" Foreground="White">€ 500</Label>
+                
+                <Button x:Name="btnP5" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                    <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,75">
+                <Label VerticalContentAlignment="Center" FontSize="35" Content="OK    " Foreground="White"></Label>
+
+                <Button x:Name="btnPCustom" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                    <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+                </Button>
+            </StackPanel>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <Button x:Name="btnOne" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5"  Margin="0,0,0,40">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnP" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-180"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+                </Button>
+
+                <Label VerticalContentAlignment="Center" FontSize="35" Foreground="White">€ 100</Label>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,75,0,75">
+            <Button x:Name="btnP2" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -81,34 +110,25 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Button.RenderTransform>
-
                 <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
             </Button>
+            <Label VerticalContentAlignment="Center" FontSize="35" Foreground="White">€ 200</Label>
+            </StackPanel>
 
-            <Button x:Name="btnTwo" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
-                <Button.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-180"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Button.RenderTransform>
-                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
-            </Button>
-
-            <Button x:Name="btnThree" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5" Margin="0, 40, 0, 0">
-                <Button.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-180"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Button.RenderTransform>
-
-                <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
-            </Button>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,75">
+                <Button x:Name="btnP3" BorderBrush="Transparent" Foreground="#00000000" Background="#00DDDDDD" Width="90" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-180"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Polygon Points="0,0 53,33, 0,67" Stroke="#4D805F" Fill="#4D805F"/>
+                </Button>
+                <Label VerticalContentAlignment="Center" FontSize="35" Foreground="White">€ 300</Label>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
