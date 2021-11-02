@@ -1,4 +1,5 @@
 ﻿using ClassLibrary;
+using GebruikersApplicatie.Views;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -45,6 +46,7 @@ namespace GebruikersApplicatie
 
         private void BtnPCustom_Click(object sender, RoutedEventArgs e)
         {
+            CustomWithdrawWindow custom = new CustomWithdrawWindow(this.Id);
             if (withdrawn)
             {
                 MessageBox.Show("Je moet eerst uitloggen");

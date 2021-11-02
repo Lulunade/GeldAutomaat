@@ -157,3 +157,5 @@ D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\D
 D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.baml
 D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.baml
 D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.baml
+D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.g.cs
+D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.baml

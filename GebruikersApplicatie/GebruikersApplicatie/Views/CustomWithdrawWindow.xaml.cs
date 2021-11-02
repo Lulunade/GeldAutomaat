@@ -23,9 +23,12 @@ namespace GebruikersApplicatie.Views
     {
         Sql Sql = new();
 
-        public CustomWithdrawWindow()
+        public int Id { get; set; }
+
+        public CustomWithdrawWindow(int id)
         {
             InitializeComponent();
+            this.Id = id;
         }
 
         private void BtnNumber_Click(object sender, RoutedEventArgs e)

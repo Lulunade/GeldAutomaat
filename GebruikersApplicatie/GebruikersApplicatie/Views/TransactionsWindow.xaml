@@ -54,6 +54,18 @@
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
 
+            <Button x:Name="btnBack"                        
+                       Foreground="White"
+                       Grid.Column="11"
+                       Padding="2"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontSize="28"
+                    Background="Transparent"
+                    BorderThickness="0">
+                ←
+            </Button>
+
         </Grid>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <DataGrid Name="dgClient" Height="200" Width="400" 
