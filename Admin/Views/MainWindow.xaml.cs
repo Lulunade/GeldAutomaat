@@ -30,7 +30,6 @@ namespace Admin
             InitializeComponent();
             txbMail.Focus();
             btnLogin.Click += BtnLogin_Click;
-/*            Administrator.Create("layla", "lol");*/
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
@@ -47,7 +46,6 @@ namespace Admin
                 Administrator.Read(id);
                 if (SecurePasswordHasher.Verify(password, Administrator.Password))
                 {
-                    MessageBox.Show("wachtwoord klopt");
                     SearchWindow searchWindow = new();
                     searchWindow.Show();
                     Close();

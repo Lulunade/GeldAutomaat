@@ -1,6 +1,8 @@
 ﻿using ClassLibrary;
+using GebruikersApplicatie.Views;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,8 +25,8 @@ namespace GebruikersApplicatie
 
         public int Id;
         double transactionAmount = 0;
-        bool deposited = false;
 
+        Sql Sql = new();
         Transaction transaction = new();
         Account account = new();
 
@@ -41,26 +43,22 @@ namespace GebruikersApplicatie
             btnP4.Click += BtnP4_Click;
             btnP5.Click += BtnP5_Click;
             btnPCustom.Click += BtnPCustom_Click;
+            btnBack.Click += BtnBack_Click;
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            Dashboard dashboard = new(this.Id);
+            dashboard.Show();
+            this.Close();
         }
 
         private void BtnPCustom_Click(object sender, RoutedEventArgs e)
         {
-            if (deposited)
-            {
-                MessageBox.Show("Je moet eerst uitloggen");
-            }
-            else if (transactionAmount == 0)
-            {
-                MessageBox.Show("Er is nog niks ingevuld");
-            }
-            else
-            {
-                deposited = true;
-                transaction.Create(transactionAmount, "+", this.Id);
-                Dashboard win = new(this.Id);
-                win.Show();
-                this.Close();
-            }
+            CustomDeposit win = new(this.Id, transactionAmount);
+            win.Show();
+            this.Close();
+
         }
 
         private void BtnP5_Click(object sender, RoutedEventArgs e)
@@ -87,7 +85,6 @@ namespace GebruikersApplicatie
         {
 
             account.Update(this.Id, account.BankNumber, (account.Balance + amount));
-            account.Balance = account.Balance + amount;
             lblBalance.Text = $"€ {account.Balance}";
             transactionAmount += amount;
         }

@@ -45,25 +45,29 @@
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
 
-            <TextBlock x:Name="lblBalance" Text="€"
+             <Button x:Name="btnBack"
+                       Content="←" 
                        Foreground="White"
-                       Grid.Column="12"
+                       Background="Transparent"
+                       BorderThickness="0"
+                       Grid.Column="13"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontWeight="Medium"
-                       FontSize="20"
+                       FontSize="30"
                        Grid.ColumnSpan="2"/>
 
         </Grid>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <DataGrid Name="dgClient" Height="200" Width="400" 
+            <DataGrid Name="dgClient" Height="200" Width="560" 
                       AutoGenerateColumns="False" 
                       IsReadOnly="true" 
                       ItemsSource="{Binding Path=LoadDataBinding}"
                       CanUserSortColumns="False">
                 <DataGrid.Columns>
                     <DataGridTextColumn FontSize="40" Width="50" Binding="{Binding Path=deposit}"/>
-                    <DataGridTextColumn FontSize="40" Width="450" Binding="{Binding Path=amount}"/>
+                    <DataGridTextColumn FontSize="40" Width="100" Binding="{Binding Path=amount}"/>
+                    <DataGridTextColumn FontSize="40" Width="400" Binding="{Binding Path=date}"/>
                 </DataGrid.Columns>
             </DataGrid>
 

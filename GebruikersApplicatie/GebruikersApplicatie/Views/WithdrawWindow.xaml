@@ -37,7 +37,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="lblDeposit" Text="Geld storten"
+            <TextBlock x:Name="lblDeposit" Text="Geld opnemen"
                        Foreground="White"
                        Grid.Column="0"
                        VerticalAlignment="Center"
@@ -45,6 +45,19 @@
                        FontWeight="Medium"
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
+
+            <Button x:Name="btnBack"
+                       Content="←" 
+                       Foreground="White"
+                       Background="Transparent"
+                       BorderThickness="0"
+                       Grid.Column="11"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="30"
+                       Grid.ColumnSpan="2"/>
+
 
             <TextBlock x:Name="lblBalance" Text="€"
                        Foreground="White"

@@ -31,9 +31,18 @@ namespace GebruikersApplicatie
             this.Id = Id;
 
             account.Read(Id);
-            lblBalance.Text = $"€ {account.Balance}";
+
+            btnBack.Click += BtnBack_Click;
+
             string sql = string.Format("SELECT * from `transaction` WHERE `account_ID` = {0} LIMIT 3", this.Id);
             dgClient.DataContext = Sql.getDataSet(sql);
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            Dashboard dashboard = new(this.Id);
+            dashboard.Show();
+            this.Close();
         }
     }
 }

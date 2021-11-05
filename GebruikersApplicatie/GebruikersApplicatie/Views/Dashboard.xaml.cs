@@ -28,6 +28,7 @@ namespace GebruikersApplicatie
             this.Id = Id;
 
             account.Read(Id);
+            lblBalance.Text = $"€ {account.Balance}";
             btnLogout.Click += Logout;
             btnDeposit.Click += BtnDeposit_Click;
             btnTransactions.Click += BtnTransactions_Click;

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\App.xaml
-7-269378076
+9-747504287
 
-9-1512585241
+111889533046
 204406359889
-Views\CustomWithdrawWindow.xaml;Views\Dashboard.xaml;Views\DepositWindow.xaml;Views\MainWindow.xaml;Views\PinWindow.xaml;Views\TransactionsWindow.xaml;Views\WithdrawWindow.xaml;
+Views\CustomDeposit.xaml;Views\CustomWithdrawWindow.xaml;Views\Dashboard.xaml;Views\DepositWindow.xaml;Views\Endscreen.xaml;Views\MainWindow.xaml;Views\PinWindow.xaml;Views\TransactionsWindow.xaml;Views\WithdrawWindow.xaml;
 
 False
 

@@ -1,0 +1,67 @@
+﻿<Window x:Class="GebruikersApplicatie.Views.Endscreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GebruikersApplicatie.Views"
+        mc:Ignorable="d"
+        Title="Endscreen" Height="700" Width="1200">
+  <Grid x:Name="grid" Background="#499F68">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="#4D805F"
+              Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="LabelQuiztime" Text="Tot ziens"
+                       Foreground="White"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
+
+             <Button x:Name="btnBack"
+                       Content="←" 
+                       Foreground="White"
+                       Background="Transparent"
+                       BorderThickness="0"
+                       Grid.Column="13"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="30"
+                       Grid.ColumnSpan="2"/>
+
+        </Grid>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="40" Margin="0,0,0,20" Name="lblWarning">Let op: tot maximaal €500 openemen</Label>
+        </StackPanel>
+
+    </Grid>
+</Window>

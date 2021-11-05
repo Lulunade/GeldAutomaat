@@ -45,6 +45,16 @@
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
 
+             <TextBlock x:Name="lblBalance" Text="€"
+                       Foreground="White"
+                       Grid.Column="12"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="20"
+                       Grid.ColumnSpan="2"/>
+
+
         </Grid>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -76,7 +86,7 @@
                     </ControlTemplate>
                 </Button.Template>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Source="D:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\pay-icon.png" Height="145" Width="201"></Image>
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\pay-icon.png" Height="145" Width="201"></Image>
                     <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Geld storten</Label>
                 </StackPanel>
             </Button>
@@ -109,7 +119,7 @@
                     </ControlTemplate>
                 </Button.Template>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Source="D:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\list-icon.png" Height="145" Width="201"></Image>
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\list-icon.png" Height="145" Width="201"></Image>
                     <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Transacties</Label>
                 </StackPanel>
             </Button>
@@ -144,7 +154,7 @@
                     </ControlTemplate>
                 </Button.Template>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Source="D:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\cash-icon.png" Height="145" Width="201"></Image>
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\cash-icon.png" Height="145" Width="201"></Image>
                     <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Geld opnemen</Label>
                 </StackPanel>
             </Button>
@@ -177,7 +187,7 @@
                     </ControlTemplate>
                 </Button.Template>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Source="D:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\logout-icon.png" Height="145" Width="201"></Image>
+                    <Image Source="C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\Images\logout-icon.png" Height="145" Width="201"></Image>
                     <Label Margin="0,20,0,0" HorizontalAlignment="Center" Foreground="white">Uitloggen</Label>
                 </StackPanel>
             </Button>

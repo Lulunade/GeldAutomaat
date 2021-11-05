@@ -55,9 +55,15 @@ namespace GebruikersApplicatie
             string userPin = txbLogin.Password;
             if (SecurePasswordHasher.Verify(userPin, Account.Pin))
             {
-                Dashboard dashboard = new(Id);
-                dashboard.Show();
-                Close();
+                if (!Account.Blocked)
+                {
+                    Dashboard dashboard = new(Id);
+                    dashboard.Show();
+                    Close();
+                } else
+                {
+                    MessageBox.Show("Je kunt niet inloggen, jouw account is geblokkeerd!");
+                }
             } else
             {
                 MessageBox.Show("Pincode is ONJUIST!");

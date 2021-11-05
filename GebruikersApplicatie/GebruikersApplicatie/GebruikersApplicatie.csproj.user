@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\CustomDeposit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\CustomWithdrawWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -14,6 +17,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\DepositWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Endscreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\PinWindow.xaml.cs">
@@ -27,6 +33,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\CustomDeposit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\CustomWithdrawWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -34,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\DepositWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Endscreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">

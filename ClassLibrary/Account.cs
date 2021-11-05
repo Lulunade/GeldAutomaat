@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,9 @@ namespace ClassLibrary
 
         public void Create(string BankNumber, double Balance = 0)
         {
-            this.Pin = SecurePasswordHasher.Hash("0000");
+            Random random = new();
+            this.Pin = SecurePasswordHasher.Hash($"{random.Next(0,9)}{random.Next(0,9)}{random.Next(0, 9)}{random.Next(0, 9)}");
+            Debug.WriteLine(this.Pin);
             string sql = string.Format("INSERT INTO betaalautomaat.account (bank_number, balance, pin) VALUES ('{0}','{1}','{2}')",
                 BankNumber, Balance, this.Pin);
 

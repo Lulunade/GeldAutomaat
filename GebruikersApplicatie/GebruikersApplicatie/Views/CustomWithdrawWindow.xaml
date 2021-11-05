@@ -36,20 +36,33 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="LabelQuiztime" Text="Inloggen"
+            <TextBlock x:Name="LabelQuiztime" Text="Geld opnemen"
                        Foreground="White"
-                       Grid.Column="1"
+                       Grid.Column="0"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontWeight="Medium"
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
 
+            <Button x:Name="btnBack"
+                   Content="←" 
+                   Foreground="White"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Grid.Column="12"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontWeight="Medium"
+                   FontSize="30"
+                   Grid.ColumnSpan="2"/>
+
+
         </Grid>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
             <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="40" Margin="0,0,0,20" Name="lblWarning">Let op: tot maximaal €500 openemen</Label>
-            <TextBox VerticalContentAlignment="Center" Name="txbLogin" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
+            <TextBox VerticalContentAlignment="Center" Name="txbAmount" Margin="20,0,0,30" Height="80" Width="290" Background="#4D805F" BorderThickness="0" FontSize="50" ClipToBounds="True" Foreground="White"></TextBox>
             <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="btnSeven" Content="7"
                             Foreground="White"
@@ -427,4 +440,5 @@
             </StackPanel>
         </StackPanel>
 
-    </Grid></Window>
+    </Grid>
+</Window>

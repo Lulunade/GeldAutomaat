@@ -46,6 +46,19 @@
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
 
+             <Button x:Name="btnBack"
+                       Content="←" 
+                       Foreground="White"
+                       Background="Transparent"
+                       BorderThickness="0"
+                       Grid.Column="11"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"
+                       FontSize="30"
+                       Grid.ColumnSpan="2"/>
+
+
             <TextBlock x:Name="lblBalance" Text="€"
                        Foreground="White"
                        Grid.Column="12"
@@ -54,7 +67,6 @@
                        FontWeight="Medium"
                        FontSize="20"
                        Grid.ColumnSpan="2"/>
-
         </Grid>
 
         <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">

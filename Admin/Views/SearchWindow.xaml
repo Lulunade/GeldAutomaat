@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Admin"
         mc:Ignorable="d"
-        Title="SearchWindow" Height="1080" Width="1920 ">
+        Title="SearchWindow" Height="1080" Width="1920 " ResizeMode="CanMinimize">
     <Grid x:Name="grid" Background="white">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -57,8 +57,64 @@
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
-                <Button FontSize="36" Width="180" Height="80" Name="btnSearch" Margin="0,0,30,0">Zoek</Button>
-                <Button FontSize="36" Width="180" Height="80" Name="btnClear">Wis</Button>
+                <Button x:Name="btnSearch" Content="Zoek"
+                                Foreground="White"
+                                FontSize="36"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#499F68"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="80"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                <Button x:Name="btnClear" Content="Wis"
+                                Foreground="#499F68"
+                                FontSize="36"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#F2F0F0"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="80"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
             </StackPanel>                    
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50">
@@ -70,11 +126,68 @@
                     </TextBox.Resources>
                     Achternaam...
                 </TextBox>
-                <Button Name="btnSearch2" FontSize="36" Width="180" Height="80" Margin="0,0,30,0">Zoek</Button>
-                <Button Name="btnClear2" FontSize="36" Width="180" Height="80">Wis</Button>
-            </StackPanel>
+                <Button x:Name="btnSearch2" Content="Zoek"
+                                Foreground="White"
+                                FontSize="36"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#499F68"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
 
-            <DataGrid Name="dgClient" Height="450" Width="1500" 
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="80"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                <Button x:Name="btnClear2" Content="Wis"
+                                Foreground="#499F68"
+                                FontSize="36"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#F2F0F0"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="180" Height="80"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>            </StackPanel>
+
+
+
+            <DataGrid Name="dgClient" Height="300" Width="1400" 
                       AutoGenerateColumns="False" 
                       IsReadOnly="true" 
                       ItemsSource="{Binding Path=LoadDataBinding}">
@@ -108,8 +221,37 @@
             </DataGrid>
 
             <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,20,0,0">
-                <Button Name="btnAdd" Padding="10" FontSize="50">Add</Button>
-            </StackPanel>
+                <Button x:Name="btnAdd" Content="Toevoegen"
+                                Foreground="White"
+                                FontSize="36"
+                                FontWeight="Regular"
+                            Margin="20,0,0,0"
+                                >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#499F68"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#c8c8c8"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="200" Height="80"
+                                            CornerRadius="20"
+                                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+
         </StackPanel>
     </Grid>
 </Window>

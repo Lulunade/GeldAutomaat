@@ -1,6 +1,8 @@
 ﻿using ClassLibrary;
+using GebruikersApplicatie.Views;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -24,8 +26,8 @@ namespace GebruikersApplicatie
         public int Id;
 
         double transactionAmount = 0;
-        bool withdrawn = false;
 
+        Sql Sql = new();
         Account account = new();
         Transaction transaction = new();
 
@@ -41,25 +43,21 @@ namespace GebruikersApplicatie
             btnP4.Click += BtnP4_Click;
             btnP5.Click += BtnP5_Click;
             btnPCustom.Click += BtnPCustom_Click;
+            btnBack.Click += BtnBack_Click;
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            Dashboard dashboard = new(this.Id);
+            dashboard.Show();
+            this.Close();
         }
 
         private void BtnPCustom_Click(object sender, RoutedEventArgs e)
         {
-            if (withdrawn)
-            {
-                MessageBox.Show("Je moet eerst uitloggen");
-            }
-            if (transactionAmount == 0)
-            {
-                MessageBox.Show("Er is nog niks ingevuld");
-            } else
-            {
-                transaction.Create(transactionAmount, "-", this.Id);
-                withdrawn = true;
-                Dashboard win = new(this.Id);
-                win.Show();
-                this.Close();
-            }
+            CustomWithdrawWindow win = new(this.Id, transactionAmount);
+            win.Show();
+            this.Close();
         }
 
         private void BtnP5_Click(object sender, RoutedEventArgs e)
@@ -84,15 +82,28 @@ namespace GebruikersApplicatie
 
         private void Deposit(double amount)
         {
+            string SQL = "SELECT COUNT(ID) FROM `transaction` WHERE(`date` > { fn CURRENT_DATE() }) AND " + string.Format("`account_ID` = {0} AND `deposit` = '-' ORDER BY `date` DESC", this.Id); 
+            DataTable dtb = Sql.getDataTable(SQL);
+
+            string countString = dtb.Rows[0]["COUNT(ID)"].ToString();
+            int count = Convert.ToInt32(countString);
+
             if (transactionAmount + amount > 500)
             {
                 MessageBox.Show("Je kunt niet meer dan €500 per keer pinnen");
+            }
+            if (account.Balance - amount <= 0)
+            {
+                MessageBox.Show("Je hebt niet genoeg geld op je rekening");
+            }
+            else if (count >= 3)
+            {
+                MessageBox.Show("Je mag niet meer dan drie keer per dag geld pinnen");
             } else
             {
-                transactionAmount += amount;
                 account.Update(this.Id, account.BankNumber, (account.Balance - amount));
-                account.Balance = account.Balance - amount;
                 lblBalance.Text = $"€ {account.Balance}";
+                transactionAmount += amount;
             }
         }
 
