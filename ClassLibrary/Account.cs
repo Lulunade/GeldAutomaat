@@ -44,10 +44,6 @@ namespace ClassLibrary
             {
                 BankNumber = this.BankNumber;
             }
-            if (Balance == 0)
-            {
-                Balance = this.Balance;
-            } 
             if (ClientId == 0)
             {
                 ClientId = this.ClientId;
