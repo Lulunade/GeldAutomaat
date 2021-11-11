@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u0dScKsKk5ExotHO5zZOuOdbfQa9QSUvFWuKW280aUT5qDqQUgmtRDgM1sHYtap2G/aHytXEBUpzKcJ5GwHDYw==",
+  "dgSpecHash": "o78u8HVVtAS/1UAb8RZQi5CyiSI17YLsbCsPkDqnp7Ia1NKo5hb9mU7U/wzz5zB5GZe5SYDOd2cHMKxCLBaiaw==",
   "success": true,
   "projectFilePath": "C:\\dotnet\\school\\l9\\geldautomaat\\Admin\\Admin.csproj",
   "expectedPackageFiles": [
@@ -15,12 +15,5 @@
     "C:\\Users\\Jeremy School\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Jeremy School\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\dotnet\\school\\l9\\geldautomaat\\Admin\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
