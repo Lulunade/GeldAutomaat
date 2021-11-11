@@ -40,7 +40,7 @@ namespace GebruikersApplicatie
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
-            Dashboard dashboard = new(this.Id);
+            Dashboard dashboard = new Dashboard(this.Id);
             dashboard.Show();
             this.Close();
         }

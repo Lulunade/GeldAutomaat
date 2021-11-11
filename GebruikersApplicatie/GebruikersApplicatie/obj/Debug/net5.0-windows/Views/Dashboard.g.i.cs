@@ -108,7 +108,7 @@ namespace GebruikersApplicatie {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GebruikersApplicatie;V1.0.0.0;component/views/dashboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GebruikersApplicatie;component/views/dashboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\Dashboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

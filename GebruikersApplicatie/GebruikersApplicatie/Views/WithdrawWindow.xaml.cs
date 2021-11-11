@@ -92,7 +92,7 @@ namespace GebruikersApplicatie
             {
                 MessageBox.Show("Je kunt niet meer dan €500 per keer pinnen");
             }
-            if (account.Balance - amount <= 0)
+            if (account.Balance - amount < 0)
             {
                 MessageBox.Show("Je hebt niet genoeg geld op je rekening");
             }
@@ -101,8 +101,9 @@ namespace GebruikersApplicatie
                 MessageBox.Show("Je mag niet meer dan drie keer per dag geld pinnen");
             } else
             {
-                account.Update(this.Id, account.BankNumber, (account.Balance - amount));
+                account.Update(this.Id, account.BankNumber, account.Balance - amount);
                 lblBalance.Text = $"€ {account.Balance}";
+                Debug.WriteLine(account.Balance);
                 transactionAmount += amount;
             }
         }

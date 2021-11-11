@@ -46,7 +46,6 @@ namespace GebruikersApplicatie.Views
                     addition = "gepint";
                     break;
             }
-            bool deposited = false;
             lblWarning.Content = $"Uw heeft € {this.TransactionAmount} {addition}, Tot Ziens!";
 
         }
