@@ -1,70 +1,3 @@
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.exe
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll.config
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.deps.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.dev.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.pdb
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.AssemblyReference.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\App.g.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.lref
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.g.resources
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfoInputs.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfo.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CoreCompileInputs.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.pdb
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Google.Protobuf.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\MySql.Data.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Zstandard.Net.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\Betaalautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.AssemblyReference.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\App.g.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.lref
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.pdb
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.exe
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll.config
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.deps.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.dev.json
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.pdb
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Google.Protobuf.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\MySql.Data.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Zstandard.Net.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\MySqlConnector.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.dll
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.pdb
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.g.resources
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfoInputs.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfo.cs
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CoreCompileInputs.cache
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
-C:\Users\Jeremy School\Documents\School\2021-2022\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.exe
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll.config
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.deps.json
@@ -85,84 +18,34 @@ C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\D
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.dll
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.pdb
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.AssemblyReference.cache
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomDeposit.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Endscreen.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.g.cs
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.g.cs
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\App.g.cs
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.cache
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.lref
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomDeposit.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Endscreen.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.baml
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.baml
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.g.resources
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.GeneratedMSBuildEditorConfig.editorconfig
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfoInputs.cache
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfo.cs
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CoreCompileInputs.cache
+C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.dll
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.pdb
 C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.exe
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll.config
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.deps.json
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.json
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.runtimeconfig.dev.json
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\GebruikersApplicatie.pdb
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Google.Protobuf.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\MySql.Data.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\Zstandard.Net.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\MySqlConnector.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\bin\Debug\net5.0-windows\ClassLibrary.pdb
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.AssemblyReference.cache
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\App.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.cache
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie_MarkupCompile.lref
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.g.resources
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.GeneratedMSBuildEditorConfig.editorconfig
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfoInputs.cache
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.AssemblyInfo.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CoreCompileInputs.cache
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\ref\GebruikersApplicatie.dll
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.pdb
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.genruntimeconfig.cache
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Dashboard.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\DepositWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\MainWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\PinWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\TransactionsWindow.baml
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\WithdrawWindow.baml
-<<<<<<< HEAD
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomDeposit.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomDeposit.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Endscreen.g.cs
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\Endscreen.baml
-C:\dotnet\school\l9\geldautomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\GebruikersApplicatie.csproj.CopyComplete
-=======
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.g.cs
-D:\dotnet\School\L9\GeldAutomaat\GebruikersApplicatie\GebruikersApplicatie\obj\Debug\net5.0-windows\Views\CustomWithdrawWindow.baml
->>>>>>> b7939ce9497cb77946dfdb91d4be0d18aa198e2d
